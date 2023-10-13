@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Contact Us </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website on academy for the blind">
+    <link rel="stylesheet" href="contact us style definitions.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us information of -Light of knowledge academy for the blind</h1>
+    </header>
+    <main>
+        <section class="contact-info">
+            <p>Get in touch with Light of knowledge Academy for the Blind to learn more about our work.
+                you can contact us on the following:</p>
+            <h2>Email ID</h2>
+            <a href="mailto:lightofknowledgeacademy@gmail.com">lightofknowledgeacademy@gmail.com</a>
+            <h2>Phone</h2>
+            <p>
+                +91-8010024339
+                <br>
+                +91-9137733825
+                <br>
+                +91-9763740753
+                <br>
+            </p>
+        </section>
+        <section class=".contact-info">
+            <h2>Contact us form</h2>
+            <p>For any queries and questions please fill out the contact us form. and our team will try their level best
+                to respond to your queries and will get back to you as soon as possible</p>
+            <div>
+                <form action="submit.php" method="post">
+                    <label for="Email"> Email ID</label>
+                    <input type="email" id="email" name="email" placeholder="name@gmail.com" required>
+                    <br>
+                    <label for="First_Name">First Name:</label>
+                    <input type="text" id="First_Name" name="First_Name" required>
+                    <br>
+                    <label for="Last_Name"> Last Name:</label>
+                    <input type="text" id="Last_Name" name="Last_Name" required>
+            </div>
+            <div>
+                <label for="mobile">Your mobile / WhatsApp Number: </label>
+                <input type="tel" id="mobile" name="mobile" placeholder="+123-1234567890"
+                    pattern="[+][0-9]{1,3}-[0-9]{10}">
+            </div>
+            </form>
+            <form action="submit.php" method="post">
+                <div>
+                    <span id="gen">Choose your gender:</span>
+                        <br>
+                        <input type="radio" id="Male" name="Gender" value="Male" aria-describedby="gen">
+                        <label for="Male">Male</label>
+                        <br>
+                        <input type="radio" id="Female" name="Gender" value="Female" aria-describedby="gen">
+                        <label for="Female">Female</label>
+                        <br>
+                        <input type="radio" id="Prefer_not_to_say" name="Gender" value="prefer not to say"
+                            aria-describedby="gen">
+                        <label for="Prefer_not_to_say"> Prefer not to say</label>
+                </div>
+            </form>
+
+            <div>
+                <form action="submit.php" method="post"></form>
+                <span id="dis">select your disability</span>
+                    <br>
+                    <input type="radio" id="Totally_Blind" name="Disability_Type" value="Totally Blind"
+                        aria-describedby="dis">
+                    <label for="Totally_Blind">Totally Blind</label>
+                    <br>
+                    <input type="radio" id="Low_Vision" name="Disability_Type" value="low vision"
+                        aria-describedby="dis">
+                    <label for="Low_Vision">Low Vision </label>
+                    <br>
+                    <label for="Other">Other </label>
+                    <input type="text" id="Other" name="Other" aria-describedby="dis">
+                    </form>
+            </div>
+            <div>
+                <form action="submit.php" method="post">
+                    <span id="cus"> How did you come to know about our organisation? </span>
+                    <br>
+                    <input type="radio" id="whatsapp_groups" name="academy" value="from whatsapp groups" aria-describedby="cus">
+                    <label for="whatsapp_groups"> from whatsapp groups</label>
+                    <br>
+                    <input type="radio" id="telegram_groups" name="academy" value="from telegram groups" aria-describedby="cus">
+                    <label for="telegram_groups"> from telegram groups</label>
+                    <br>
+                    <input type="radio" id="friends_and_family" name="academy" value="from friends and family " aria-describedby="cus"">
+<label for=" friends_and_family">From friends and family</label>
+                    <br>
+                    <label for="other"> Other</label>
+                    <input type="text" id="other" name="other" aria-describedby="cus">
+
+                </form>
+            </div>
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div>
+                <input type="reset" value="Clear Form">
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Write to us at <a href="mailto:lightofknowledgeacademy@gmail.com">lightofknowledgeacademy@gmail.com</a></p>
+        <p>&copy; 2023 Light of Knowledge Academy for the Blind. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
